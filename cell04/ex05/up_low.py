@@ -7,3 +7,5 @@ for i in text:
         print(i.lower(), end="")
     else:
         print(i.upper(), end="")
+    
+print()

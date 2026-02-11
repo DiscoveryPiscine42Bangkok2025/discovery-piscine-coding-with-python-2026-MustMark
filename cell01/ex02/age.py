@@ -1,5 +1,5 @@
 real_age = 21
 add_age = 42
-myage = real_age + add_age
+my_age = real_age + add_age
 
-print(myage)
+print(my_age)

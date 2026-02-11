@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
 
-for i in range(11):
-    print(f'Table de {i}: ', end="")
-    for j in range(11):
-        print(i * j, end=" ")
-    print()
+import sys
+
+if len(sys.argv) > 1:
+    print('none')
+else:
+    i = 0
+    while i < 11:
+        print(f'Table de {i}: ', end="")
+        j = 0
+        while j < 11:
+            print(i * j, end=" ")
+            j += 1
+        print()
+        i += 1
